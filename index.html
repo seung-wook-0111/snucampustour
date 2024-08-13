@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 SNU멘토링 캠퍼스투어</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <div id="timetableContent" class="tabContent">
+            <img src="timetable.png" alt="">
+        </div>
+        <div id="rulesContent" class="tabContent" style="display:none;">
+            <img src="gamerules.jpeg" alt="">
+        </div>
+        <div id="photoContent" class="tabContent" style="display:none;">
+            <img src="photo.png" alt="">
+            <a href="https://open.kakao.com/o/sjArPOIg"><img src="btn.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="tabBar">
+        <button class="tabButton active" onclick="showTab('timetableContent', this)">
+            <i class="fa-solid fa-clock"></i>
+            <span>일정표</span>
+        </button>
+        <button class="tabButton" onclick="showTab('rulesContent', this)">
+            <i class="fa-solid fa-list"></i>
+            <span>게임 규칙</span>
+        </button>
+        <button class="tabButton" onclick="showTab('photoContent', this)">
+            <i class="fa-solid fa-camera"></i>
+            <span>사진 미션</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
