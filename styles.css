@@ -1,6 +1,9 @@
 body {
     margin: 0;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 span {
     font-family: "Jua", sans-serif;
@@ -8,9 +11,13 @@ span {
     font-style: normal;
     font-size: 1rem;
 }
+#spacing {
+    height: auto;
+}
 #content {
     padding: 0;
     overflow-y: scroll;
+    flex-grow: 1;
 }
 
 #content img {
