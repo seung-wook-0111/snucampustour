@@ -10,6 +10,7 @@ span {
 }
 #content {
     padding: 0;
+    overflow-y: scroll;
 }
 
 #content img {
@@ -19,7 +20,8 @@ span {
 }
 
 .tabBar {
-    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
     bottom: 0;
     width: 100%;
     background-color: #f1f1f1;
