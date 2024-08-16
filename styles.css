@@ -11,9 +11,6 @@ span {
     font-style: normal;
     font-size: 1rem;
 }
-#spacing {
-    height: auto;
-}
 #content {
     padding: 0;
     overflow-y: scroll;
